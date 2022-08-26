@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDKDotNet", "SDKDotNet/SDKDotNet.csproj", "{925979B3-0CD1-4468-A756-F4E65372D866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDKCore", "SDKCore\SDKCore.csproj", "{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{925979B3-0CD1-4468-A756-F4E65372D866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925979B3-0CD1-4468-A756-F4E65372D866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925979B3-0CD1-4468-A756-F4E65372D866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925979B3-0CD1-4468-A756-F4E65372D866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

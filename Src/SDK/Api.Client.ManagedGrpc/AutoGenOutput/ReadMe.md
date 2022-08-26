@@ -1,1 +1,0 @@
-﻿Please read the comments in the `Temporal.GrpcClient.Managed.csproj` file in the directory above for important information about this folder.

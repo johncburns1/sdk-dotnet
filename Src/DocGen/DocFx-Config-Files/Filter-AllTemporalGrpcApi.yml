@@ -1,7 +1,0 @@
-﻿apiRules:
-- exclude:
-    uidRegex: ^Temporal\.Api
-    type: Namespace
-- exclude:
-    uidRegex: ^Gogoproto
-    type: Namespace
