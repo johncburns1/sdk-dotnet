@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDKDotNet", "SDKDotNet/SDKD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDKCore", "SDKCore\SDKCore.csproj", "{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDKDotNet.Test", "SDKDotNet.Test\SDKDotNet.Test.csproj", "{0ED9D1D0-8DEC-4FE9-8E6A-BC3A4928C765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D64BDE7-D3F9-4DBE-87A4-CCF503E31BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED9D1D0-8DEC-4FE9-8E6A-BC3A4928C765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED9D1D0-8DEC-4FE9-8E6A-BC3A4928C765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED9D1D0-8DEC-4FE9-8E6A-BC3A4928C765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED9D1D0-8DEC-4FE9-8E6A-BC3A4928C765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

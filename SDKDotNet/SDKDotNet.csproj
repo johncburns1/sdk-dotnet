@@ -16,7 +16,11 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="..\SDKCore\sdk-core\protos\**\*.proto" GrpcServices="Client" />
+        <Protobuf Include="..\SDKCore\sdk-core\protos\api_upstream\**\*.proto;" ProtoRoot="..\SDKCore\sdk-core\protos\api_upstream" OutputDir="Models" GrpcServices="None" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="..\SDKCore\sdk-core\protos\local\**\*.proto" ProtoRoot="..\SDKCore\sdk-core\protos\local;..\SDKCore\sdk-core\protos\api_upstream" OutputDir="Models/temporal/sdk" GrpcServices="None" />
     </ItemGroup>
 
 </Project>
