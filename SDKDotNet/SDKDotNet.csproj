@@ -23,4 +23,12 @@
         <Protobuf Include="..\SDKCore\sdk-core\protos\local\**\*.proto" ProtoRoot="..\SDKCore\sdk-core\protos\local;..\SDKCore\sdk-core\protos\api_upstream" OutputDir="Models/temporal/sdk" GrpcServices="None" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Activity" />
+      <Folder Include="Client" />
+      <Folder Include="Common" />
+      <Folder Include="Worker" />
+      <Folder Include="Workflow" />
+    </ItemGroup>
+
 </Project>
