@@ -1,0 +1,4 @@
+
+[submodule "SDKCore/sdk-core"]
+	path = SDKCore/sdk-core
+	url = https://github.com/temporalio/sdk-core.git
